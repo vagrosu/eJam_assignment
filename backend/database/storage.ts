@@ -8,7 +8,7 @@ const storage: StorageType = {
       id: "p9z4vhr8dvhi0hpp1dmqzjtt",
       name: "Superman",
       superpower: "Strength",
-      humilityScore: 9,
+      humilityScore: 4,
     },
     {
       id: "q3h9rklaeb112xlou8url4tr",
@@ -20,7 +20,7 @@ const storage: StorageType = {
       id: "u04v3svb0nuwfh77rceux2aj",
       name: "Sonic",
       superpower: "Speed",
-      humilityScore: 5,
+      humilityScore: 10,
     },
     {
       id: "t9cb7wfgdnqijpz2bcnebiqx",
@@ -38,13 +38,13 @@ const storage: StorageType = {
       id: "qf2u4mr2euie8j53kufu7g9y",
       name: "Groot",
       superpower: "Regeneration",
-      humilityScore: 1,
+      humilityScore: 10,
     },
     {
       id: "uw1akgm6iyf704mcqnwmlcyk",
       name: "Spiderman",
       superpower: "Agility",
-      humilityScore: 1,
+      humilityScore: 3,
     },
   ],
 };
