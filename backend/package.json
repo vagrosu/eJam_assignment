@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "eJam Task Assignment: Building a Humble Superhero API",
   "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
     "@types/swagger-jsdoc": "^6.0.4",
     "@types/swagger-ui-express": "^4.1.7",
     "dotenv": "^16.4.7",
