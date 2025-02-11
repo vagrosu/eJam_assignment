@@ -53,7 +53,7 @@ For simplicity, I included the **.env** file in Git (aware that this is against 
 
 ## Frontend
 
-The frontend client consists of an Vite + React application, that uses:
+The frontend client consists of a Vite + React application, that uses:
 
 - `@tanstack/react-query` and `axios` for managing server requests and handling data.
 - Material UI components for a clean design.
