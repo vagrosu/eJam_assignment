@@ -1,6 +1,6 @@
 # Task Assignment: Building a Humble Superhero API
 
-## Backend structure
+## Backend
 
 Even though this is a small API, I structured the project to be as readable and scalable as possible:
 
@@ -49,6 +49,22 @@ Even though this is a small API, I structured the project to be as readable and 
 The **index.ts** file is the entry point of the application.
 For simplicity, I included the **.env** file in Git (aware that this is against best practices, but I did this for easier testing).
 
+## Frontend
+
+The frontend client consists of an Vite + React application, that uses:
+
+- `@tanstack/react-query` and `axios` for managing server requests and handling data.
+- Material UI components for a clean design.
+- `react-toastify` for showing errors and success messages.
+
+Features:
+
+- Users can view all superheroes in their default order, or sort them in ascending or descending order by humility score.
+- The list of superheroes is paginated (e.g., 10 items per page), making it easy to navigate through large datasets.
+- Users can add new superheroes, the list being automatically updated on success.
+
+![Frontend](/media/frontend.png)
+
 ## Team collaboration
 
 Although this was an individual task, I structured the project in a way that makes team collaboration easy in the future. Here is what I would do to improve it more:
@@ -62,7 +78,7 @@ Although this was an individual task, I structured the project in a way that mak
 If I had more time, I would:
 
 - Replace the in-memory storage with a real database, using an ORM like Prisma with PostgreSQL or MongoDB, depending on the project's needs.
-- Use Docker to run both the server and database in separate containers, ensuring consistent development environment and easier deployment.
+- Use Docker to run the database, server and client in separate containers, ensuring consistent development environment and easier deployment.
 - Add CI/CD pipelines like GitHub Actions to automate testing and deployment.
 - Secure superhero creation with JWT authentication, session-based auth, or OAuth integrations (e.g., Google login).
 
