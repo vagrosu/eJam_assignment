@@ -2,7 +2,9 @@
 
 ## Backend
 
-Even though this is a small API, I structured the project to be as readable and scalable as possible:
+Even though this is a small API, I structured the project to be as readable and scalable as possible.
+
+The API project is structured as follows:
 
 - <span style="color:yellow">**database**</span>: A simple object with dummy data for testing, along with type definitions.
   I chose an object-based approach to allow easy expansion with other resources (e.g., Villains).
