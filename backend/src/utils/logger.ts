@@ -8,6 +8,7 @@ const COLORS = {
   reset: "\x1b[0m",
 };
 
+// This format will print log timestamp, log level, message, stack trace and request URL (if available)
 const logFormat = printf(({ level, message, timestamp, stack, ...meta }) => {
   const logMessage = typeof message === "object" ? util.inspect(message, { depth: null, colors: true }) : message;
   const stackTrace = stack ? `\nStack Trace: ${stack}` : "";

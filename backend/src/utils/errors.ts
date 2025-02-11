@@ -1,6 +1,7 @@
 import { isObject } from "./objects";
 import { isString } from "./strings";
 
+// The normalizeError function takes an unknown error and returns an Error object.
 export const normalizeError = (error: unknown): Error => {
   if (isString(error)) {
     return new Error(error);

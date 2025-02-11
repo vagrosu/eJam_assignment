@@ -7,6 +7,7 @@ import { paginationValidations } from "src/validators/pagination.validator";
 import { isObjectEmpty } from "@utils/objects";
 import { normalizeError } from "@utils/errors";
 
+// Add pagination to the request object
 export const addPagination = (req: Request, res: Response, next: NextFunction) => {
   Promise.all(paginationValidations.map((validation) => validation.run(req)))
     .then(() => {

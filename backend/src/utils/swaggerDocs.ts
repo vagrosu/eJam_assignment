@@ -4,8 +4,7 @@ import { OpenAPIV3 } from "openapi-types";
  * Manages and aggregates Swagger/OpenAPI documentation for API routes.
  *
  * This class allows you to dynamically add and retrieve Swagger documentation paths
- * in a structured and type-safe way. It is useful for modularizing route-specific
- * Swagger documentation and consolidating them into a single object for Swagger UI setup.
+ * in a structured and type-safe way.
  *
  * @example
  * const AuthDocs = new SwaggerDocsManager();

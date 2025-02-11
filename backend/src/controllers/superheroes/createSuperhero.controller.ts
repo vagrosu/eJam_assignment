@@ -14,6 +14,7 @@ export const createSuperhero = async (
   try {
     const { name, superpower, humilityScore } = req.body;
 
+    // Check if superhero already exists
     const existingSuperhero = SuperheroesService.getSuperheroByName(name);
     if (existingSuperhero) {
       res.status(409).json(standardResponse({ isSuccess: false, res, message: "Superhero already exists" }));
