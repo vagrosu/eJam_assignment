@@ -38,6 +38,7 @@ Even though this is a small API, I structured the project to be as readable and 
 
   - Helps maintain a clean architecture.
   - Improves reusability and scalability.
+  - Includes unique ID generation for each resource.
 
 - <span style="color:yellow">**types**</span>: Defines reusable TypeScript types for requests and responses.
 
