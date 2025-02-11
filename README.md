@@ -2,9 +2,6 @@
 
 ## Backend structure
 
-\*For simplicity and readability I have marked key folders with <span style="color:green">**green**</span>, and less critical ones with
-<span style="color:yellow">**yellow**</span> (mostly server setup and helper utilities).
-
 Even though this is a small API, I structured the project to be as readable and scalable as possible:
 
 - <span style="color:yellow">**database**</span>: A simple object with dummy data for testing, along with type definitions.
